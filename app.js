@@ -2,7 +2,7 @@ const swiper = new Swiper(".swiper-container", {
   // Optional parameters
   direction: "horizontal",
   loop: false,
-  height: 1000,
+  autoHeight: true,
   // If we need pagination
   pagination: {
     el: ".swiper-pagination",
